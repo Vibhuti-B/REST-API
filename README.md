@@ -1,6 +1,9 @@
 # REST-API
 Python Code to receive Ticker and return historical stocks and next day prediction
-create a database ### Stock Market.db ###
+
+The code is available in StockData.py file.
+
+create a database -Stock Market.db
 The database consists of 1 table- Historical_Data:
 CREATE TABLE "Historical_Data" ( `Index` INTEGER, `Ticker` TEXT, `date` REAL, `open` NUMERIC, `high` NUMERIC, `low` INTEGER, `close` NUMERIC, `volume` NUMERIC )
 
